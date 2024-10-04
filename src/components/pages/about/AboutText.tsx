@@ -22,6 +22,7 @@ const AboutText = () => {
           alt="Team Luminous"
           width={500}
           height={500}
+          loading="lazy"
         />
       </div>
     </section>

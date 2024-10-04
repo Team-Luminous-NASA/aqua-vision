@@ -9,7 +9,7 @@ const AboutPage = () => {
       <div className="mb-10">
         <AboutText />
       </div>
-      <div>
+      <div className="mx-auto">
         <TeamMemberSection />
       </div>
     </div>

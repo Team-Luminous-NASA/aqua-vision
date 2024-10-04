@@ -7,16 +7,24 @@ const config: Config = {
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+  safelist: [
+    "bg-bgShezan",
+    "bg-bgJobayer",
+    "bg-bgAsma",
+    "bg-bgTanni",
+    "bg-bgNaim",
+    "bg-bgSadman",
+  ],
   theme: {
     extend: {
       backgroundImage: {
         bg1: "url('/bg/bg-1.jpeg')",
         bgShezan: "url('/team/shezan.jpg')",
         bgJobayer: "url('/team/jobayer.png')",
-        bgAsma: "url('/team/fahmida.jpg')",
-        bgTanni: "url('/bg/bg-tanni.jpg')",
+        bgAsma: "url('/team/asma.jpg')",
+        bgTanni: "url('/team/fahmida.jpg')",
         bgNaim: "url('/team/naim.jpg')",
-        bgSadman: "url('/bg/bg-1.jpeg')",
+        bgSadman: "url('/team/team-logo.jpg')",
       },
       colors: {
         background: "hsl(var(--background))",

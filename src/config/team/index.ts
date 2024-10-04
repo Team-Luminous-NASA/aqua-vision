@@ -52,7 +52,7 @@ export const TeamMembers: ITeamMember[] = [
       {
         name: "LinkedIn",
         icon: FaLinkedin,
-        link: "www.linkedin.com/in/jobayer-hossain-164895288",
+        link: "https://linkedin.com/in/jobayer-hossain-164895288",
       },
       { name: "Mail", icon: IoMdMail, link: "jobayerhossain1202@gmail.com" },
     ],
@@ -74,7 +74,7 @@ export const TeamMembers: ITeamMember[] = [
   {
     name: "Sadman Shafique",
     role: "Researcher",
-    imageUrl: "",
+    imageUrl: "/components/earth.jpg",
     bgClassName: "bgSadman",
     socialLinks: [
       { name: "LinkedIn", icon: FaLinkedin, link: "https://linkedin.com" },
@@ -100,7 +100,7 @@ export const TeamMembers: ITeamMember[] = [
       {
         name: "LinkedIn",
         icon: FaLinkedin,
-        link: "https://linkedin.com/in/kazi-asma-ul-hosna-48ab90317wxyz",
+        link: "https://linkedin.com/in/jashezan",
       },
       { name: "Mail", icon: IoMdMail, link: "jashezan@gmail.com" },
     ],
