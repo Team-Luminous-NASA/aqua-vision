@@ -19,7 +19,7 @@ import { paceComponents } from "@/config/pace/config";
 
 export function NavBar() {
   return (
-    <NavigationMenu className="w-full sticky top-0 z-50 flex justify-between items-center 2xl:max-w-screen-2xl xl:max-w-screen-xl lg:max-w-screen-lg md:max-w-screen-md mx-auto px-2 py-2 md:px-10">
+    <NavigationMenu className="w-full sticky top-0 z-[100] flex justify-between items-center 2xl:max-w-screen-2xl xl:max-w-screen-xl lg:max-w-screen-lg md:max-w-screen-md mx-auto px-2 py-2 md:px-10">
       <div>
         {/* logo */}
         <Link href="/" legacyBehavior passHref>

@@ -14,9 +14,11 @@ const SlideCard = ({ member }: { member: ITeamMember }) => {
           <div className={styles.card}>
             {member.bgClassName && (
               <div
-                className={`${styles.frontContent} bg-${member.bgClassName} bg-cover bg-no-repeat  bg-black/65 bg-blend-overlay text-2xl`}
+                className={`${styles.frontContent} bg-${member.bgClassName} bg-cover bg-no-repeat  bg-black/15 bg-blend-overlay text-2xl`}
               >
-                <div>{member.role}</div>
+                <div className="mb-6 bg-black/45 px-3 py-1 rounded-sm">
+                  {member.role}
+                </div>
               </div>
             )}
             <div className={styles.content}>
