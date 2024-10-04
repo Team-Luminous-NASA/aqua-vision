@@ -1,4 +1,4 @@
-import PageTitle from "@/components/common/page_title/PageTitle"
+import PageTitle from "@/components/common/page_title/PageTitle";
 
 const PaceMainPage = () => {
   return (
