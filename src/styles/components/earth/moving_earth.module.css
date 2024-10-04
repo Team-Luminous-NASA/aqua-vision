@@ -1,0 +1,134 @@
+/* :root {
+  --earth-size: 400px;
+} */
+
+.earthSection {
+  height: var(--earth-size);
+  width: var(--earth-size);
+  position: relative;
+  transition: left 0.3s linear;
+  background: url("/components/earth.jpg");
+  z-index: -1;
+  background-size: cover;
+  background-position: left;
+  bottom: 0px;
+  border-radius: 50%;
+  animation: earthRotate 30s linear infinite;
+  box-shadow:
+    0px 0 20px rgba(255, 255, 255, 0.2),
+    -5px 0px 8px #c3f4ff inset,
+    15px 2px 25px #000 inset,
+    -24px -2px 34px #c3f4ff99 inset,
+    250px 0px 44px #00000066 inset,
+    150px 0px 38px #000000aa inset;
+}
+
+@keyframes earthRotate {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: calc(var(--earth-size)) 0;
+  }
+}
+
+.curvedCornerStar {
+  display: flex;
+  position: relative;
+}
+
+.curvedCorner {
+  width: 4px;
+  height: 5px;
+  overflow: hidden;
+  position: relative;
+}
+
+.curvedCorner::before {
+  content: "";
+  display: block;
+  width: 200%;
+  height: 200%;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.curvedCornerBottomLeft::before {
+  bottom: 0;
+  left: 0;
+  box-shadow: -5px 5px 0 0 white;
+}
+
+.curvedCornerBottomRight::before {
+  bottom: 0;
+  right: 0;
+  box-shadow: 5px 5px 0 0 white;
+}
+
+.curvedCornerTopLeft::before {
+  top: 0;
+  left: 0;
+  box-shadow: -5px -5px 0 0 white;
+}
+
+.curvedCornerTopRight::before {
+  top: 0;
+  right: 0;
+  box-shadow: 5px -5px 0 0 white;
+}
+
+@keyframes twinkling_star {
+  0%,
+  100% {
+    opacity: 0.1;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+.star {
+  position: absolute;
+  animation: twinkling_start infinite;
+}
+
+.star1 {
+  left: -20px;
+  animation-duration: 3s;
+}
+
+.star2 {
+  left: -40px;
+  top: 30px;
+  animation-duration: 2s;
+}
+
+.star3 {
+  left: calc(var(--earth-size) - 50px);
+  top: 90px;
+  animation-duration: 4s;
+}
+
+.star4 {
+  left: 200px;
+  top: calc(var(--earth-size) - 110px);
+  animation-duration: 3s;
+}
+
+.star5 {
+  left: 50px;
+  top: calc(var(--earth-size) - 130px);
+  animation-duration: 1.5s;
+}
+
+.star6 {
+  left: calc(var(--earth-size) - 150px);
+  top: -50px;
+  animation-duration: 4s;
+}
+
+.star7 {
+  left: calc(var(--earth-size) - 110px);
+  top: 60px;
+  animation-duration: 2s;
+}
