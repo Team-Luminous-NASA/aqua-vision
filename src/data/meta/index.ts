@@ -48,7 +48,7 @@ export const MetaDataContent: Metadata = {
       type: "image/png",
     },
     {
-      url: "https://cdn.jsdelivr.net/gh/jashezan/aqua-vision@main/public/site.webmanifest",
+      url: "/site.webmanifest",
       rel: "manifest",
     },
   ],
@@ -123,6 +123,5 @@ export const MetaDataContent: Metadata = {
   },
   archives: ["https://aqua-vision.vercel.app"],
   bookmarks: ["https://aqua-vision.vercel.app"],
-  manifest:
-    "https://cdn.jsdelivr.net/gh/jashezan/aqua-vision@main/public/site.webmanifest",
+  manifest: "/site.webmanifest",
 };
