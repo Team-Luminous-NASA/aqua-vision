@@ -149,7 +149,7 @@ function ExampleDatasets() {
       </div>
       <div className="mt-8">
         <Image
-          src="/images/ocean-data-map.jpg"
+          src="https://cdn.jsdelivr.net/gh/jashezan/aqua-vision@main/public/images/ocean-data-map.jpg"
           alt="Ocean Data Map"
           width={1200}
           height={600}
@@ -182,7 +182,7 @@ export default function AdvancedGuidePage() {
     <main className="min-h-screen bg-[#0a0e17] text-white">
       <HeroSection
         title="Advanced Guide to PACE"
-        imageUrl="/images/pace-satellite.jpg"
+        imageUrl="https://cdn.jsdelivr.net/gh/jashezan/aqua-vision@main/public/images/pace-satellite.jpg"
       />
       <ContentSection />
       <MissionStatus />

@@ -87,7 +87,7 @@ const config: Config = {
         sm: "calc(var(--radius) - 4px)",
       },
       fontFamily: {
-        exo: ["Exo", "sans-serif"],
+        poppins: ["Poppins", "sans-serif"],
       },
     },
   },

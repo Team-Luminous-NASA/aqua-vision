@@ -46,7 +46,8 @@ export const TeamMembers: ITeamMember[] = [
   {
     name: "Md. Jobayer Hossain",
     role: "Team Leader",
-    imageUrl: "/team/jobayer.png",
+    imageUrl:
+      "https://cdn.jsdelivr.net/gh/jashezan/aqua-vision@main/public/team/jobayer.png",
     bgClassName: "bgJobayer",
     socialLinks: [
       {
@@ -60,7 +61,8 @@ export const TeamMembers: ITeamMember[] = [
   {
     name: "Kazi Asma Ul Hosna",
     role: "Artist",
-    imageUrl: "/team/asma.jpg",
+    imageUrl:
+      "https://cdn.jsdelivr.net/gh/jashezan/aqua-vision@main/public/team/asma.jpg",
     bgClassName: "bgAsma",
     socialLinks: [
       {
@@ -84,7 +86,8 @@ export const TeamMembers: ITeamMember[] = [
   {
     name: "Fahmida Akter Tanni",
     role: "Designer",
-    imageUrl: "/team/fahmida.jpg",
+    imageUrl:
+      "https://cdn.jsdelivr.net/gh/jashezan/aqua-vision@main/public/team/fahmida.jpg",
     bgClassName: "bgTanni",
     socialLinks: [
       { name: "LinkedIn", icon: FaLinkedin, link: "https://linkedin.com" },
@@ -94,7 +97,8 @@ export const TeamMembers: ITeamMember[] = [
   {
     name: "M. M. Jubyer Ahmed Shezan",
     role: "Developer",
-    imageUrl: "/team/shezan.jpg",
+    imageUrl:
+      "https://cdn.jsdelivr.net/gh/jashezan/aqua-vision@main/public/team/shezan.jpg",
     bgClassName: "bgShezan",
     socialLinks: [
       {
@@ -108,7 +112,8 @@ export const TeamMembers: ITeamMember[] = [
   {
     name: "Moinur Rahman Naeem",
     role: "Designer",
-    imageUrl: "/team/naim.jpg",
+    imageUrl:
+      "https://cdn.jsdelivr.net/gh/jashezan/aqua-vision@main/public/team/naim.jpg",
     bgClassName: "bgNaim",
     socialLinks: [
       {

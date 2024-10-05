@@ -18,7 +18,7 @@ const AboutText = () => {
       </div>
       <div className="p-5 text-center grid place-content-center">
         <Image
-          src="/team/team-logo.jpg"
+          src="https://cdn.jsdelivr.net/gh/jashezan/aqua-vision@main/public/team/team-logo.jpg"
           alt="Team Luminous"
           width={500}
           height={500}

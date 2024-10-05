@@ -47,8 +47,20 @@ export const siteConfig = {
     },
   ],
   socialLinks: [
-    { name: "Twitter", icon: FaSquareXTwitter, link: "https://twitter.com" },
-    { name: "LinkedIn", icon: FaLinkedin, link: "https://linkedin.com" },
-    { name: "GitHub", icon: FaSquareGithub, link: "https://github.com" },
+    {
+      name: "Twitter",
+      icon: FaSquareXTwitter,
+      link: "https://twitter.com/jashezan",
+    },
+    {
+      name: "LinkedIn",
+      icon: FaLinkedin,
+      link: "https://linkedin.com/in/jashezan",
+    },
+    {
+      name: "GitHub",
+      icon: FaSquareGithub,
+      link: "https://github.com/jashezan",
+    },
   ],
 };

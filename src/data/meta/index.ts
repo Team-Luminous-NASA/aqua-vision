@@ -6,49 +6,49 @@ export const MetaDataContent: Metadata = {
     "Aqua Vision is an interactive platform to help students around the world easily understand NASA's PACE satellite and its mission to study Earth's oceans and atmosphere in NASA's International Space Apps Challenge.",
   icons: [
     {
-      url: "/favicon.ico",
+      url: "https://cdn.jsdelivr.net/gh/jashezan/aqua-vision@main/public/favicon.ico",
       rel: "icon",
     },
     {
-      url: "/apple-touch-icon.png",
+      url: "https://cdn.jsdelivr.net/gh/jashezan/aqua-vision@main/public/apple-touch-icon.png",
       rel: "apple-touch-icon",
     },
     {
-      url: "/favicon.ico",
+      url: "https://cdn.jsdelivr.net/gh/jashezan/aqua-vision@main/public/favicon.ico",
       type: "image/icon",
       media: "(prefers-color-scheme: light)",
     },
     {
-      url: "/favicon.ico",
+      url: "https://cdn.jsdelivr.net/gh/jashezan/aqua-vision@main/public/favicon.ico",
       type: "image/icon",
       media: "(prefers-color-scheme: dark)",
     },
     {
-      url: "/android-chrome-192x192.png",
+      url: "https://cdn.jsdelivr.net/gh/jashezan/aqua-vision@main/public/android-chrome-192x192.png",
       rel: "icon",
       sizes: "192x192",
       type: "image/png",
     },
     {
-      url: "/android-chrome-512x512.png",
+      url: "https://cdn.jsdelivr.net/gh/jashezan/aqua-vision@main/public/android-chrome-512x512.png",
       rel: "icon",
       sizes: "512x512",
       type: "image/png",
     },
     {
-      url: "/favicon-16x16.png",
+      url: "https://cdn.jsdelivr.net/gh/jashezan/aqua-vision@main/public/favicon-16x16.png",
       rel: "icon",
       sizes: "16x16",
       type: "image/png",
     },
     {
-      url: "/favicon-32x32.png",
+      url: "https://cdn.jsdelivr.net/gh/jashezan/aqua-vision@main/public/favicon-32x32.png",
       rel: "icon",
       sizes: "32x32",
       type: "image/png",
     },
     {
-      url: "/site.webmanifest",
+      url: "https://cdn.jsdelivr.net/gh/jashezan/aqua-vision@main/public/site.webmanifest",
       rel: "manifest",
     },
   ],
@@ -117,11 +117,12 @@ export const MetaDataContent: Metadata = {
     statusBarStyle: "black-translucent",
     capable: true,
     startupImage: {
-      url: "/favicon.ico",
+      url: "https://cdn.jsdelivr.net/gh/jashezan/aqua-vision@main/public/favicon.ico",
       media: "(prefers-color-scheme: light)",
     },
   },
   archives: ["https://aqua-vision.vercel.app"],
   bookmarks: ["https://aqua-vision.vercel.app"],
-  manifest: "/site.webmanifest",
+  manifest:
+    "https://cdn.jsdelivr.net/gh/jashezan/aqua-vision@main/public/site.webmanifest",
 };

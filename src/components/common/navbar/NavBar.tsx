@@ -29,7 +29,7 @@ export function NavBar() {
             }
           >
             <Image
-              src="/logo.png"
+              src="https://cdn.jsdelivr.net/gh/jashezan/aqua-vision@main/public/logo.png"
               alt="Logo"
               className="h-12 w-12"
               height={48}
@@ -72,9 +72,9 @@ export function NavBar() {
           </NavigationMenuContent>
         </NavigationMenuItem>
         <NavigationMenuItem>
-          <Link href="/ar" legacyBehavior passHref>
+          <Link href="/about" legacyBehavior passHref>
             <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-              AR
+              About
             </NavigationMenuLink>
           </Link>
         </NavigationMenuItem>
