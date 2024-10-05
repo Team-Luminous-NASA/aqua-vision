@@ -5,7 +5,13 @@ import { Poppins } from "next/font/google";
 
 export const metadata: Metadata = MetaDataContent;
 
-export const fonts = [Poppins];
+const poppins = Poppins({
+  weight: ["400", "700"],
+  subsets: ["latin"],
+  display: "swap",
+  adjustFontFallback: false,
+  preload: true,
+});
 
 export default function RootLayout({
   children,
@@ -14,12 +20,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className="bg-gradient-to-b from-blue-900 to-blue-500 text-white"
-        style={{ fontFamily: "Poppins" }}
-      >
-        {children}
-      </body>
+      <body className={`antialiased ${poppins.className}`}>{children}</body>
     </html>
   );
 }

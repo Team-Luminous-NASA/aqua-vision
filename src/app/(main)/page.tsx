@@ -10,8 +10,8 @@ export default async function Home() {
     <main className="container mx-auto my-36">
       <div className="hero_section">
         <div className="w-full">
-          <h1 className="text-6xl font-bold font-bungee">AQUA VISION</h1>
-          <p className="text-2xl font-normal font-bungee">
+          <h1 className="text-6xl font-bold">AQUA VISION</h1>
+          <p className="text-2xl font-normal">
             Let&apos;s Explore the Oceans, & Earth&apos;s Atmosphere from PACE
           </p>
           <SunCloud />
